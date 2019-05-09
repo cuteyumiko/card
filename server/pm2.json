@@ -1,0 +1,22 @@
+{
+  "apps": [{
+    "name": "bank-server",
+    "script": "dist",
+    "cwd": "/data/bank/server",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      "MYSQL_HOST": "172.17.0.8",
+      "MYSQL_PORT": 3306,
+      "MYSQL_USER": "root",
+      "MYSQL_PASSWORD": "MYSQL_PASSWORD",
+      "MYSQL_DATABASE": "MYSQL_DATABASE",
+      "SERVER_PORT": 9078,
+      "NODE_ENV": "production"
+    }
+  }]
+}

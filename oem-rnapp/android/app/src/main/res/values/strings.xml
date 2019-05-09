@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloCard</string>
+    <string name="title_activity_wxpay_entry">WXPayEntryActivity</string>
+    <string name="wx_app_id">wx_app_id</string>
+</resources>
